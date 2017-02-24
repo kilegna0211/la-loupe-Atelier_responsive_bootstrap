@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <title>Happy Socks</title>
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!--js-->
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Image Background Page Header -->
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">My Happy Socks :)</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home" style="font-size:16px"></span></a>
+        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-2">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Kids</a></li>
+              <li><a href="#">News</a></li>
+              <li><a class="btn btn-default btn-outline btn-circle"  data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+<!--carousel-->
+    <div id="my_carousel" class="carousel slide" data-ride="carousel">
+    <!-- Bulles -->
+      <ol class="carousel-indicators">
+        <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#my_carousel" data-slide-to="1"></li>
+        <li data-target="#my_carousel" data-slide-to="2"></li>
+      </ol>
+    <!-- Slides -->
+      <div class="carousel-inner">
+    <!-- Page 1 -->
+        <div class="item active">
+          <div class="carousel-page">
+            <img src="produit2.jpg" class="img-responsive" style="margin:0px auto;"/>
+          </div>
+          <div class="carousel-caption">Fun</div>
+        </div>
+    <!-- Page 2 -->
+        <div class="item">
+          <div class="carousel-page"><img src="produit3.jpg" class="img-responsive"
+            style="margin:0px auto;"  /></div>
+          <div class="carousel-caption">Sobre</div>
+        </div>
+    <!-- Page 3 -->
+        <div class="item">
+          <div class="carousel-page">
+            <img src="produit4.jpg" class="img-responsive"
+            style="margin:0px auto;max-height:100%;"/>
+          </div>
+          <div class="carousel-caption">Extra</div>
+        </div>
+      </div>
+    <!-- Contrôles -->
+      <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#my_carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+    <!-- Page Content-->
+    <div class="container">
+
+    <!--ligne1-->
+      <div class="row">
+        <hr>
+
+      <!--modal1-->
+      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Model 1</h4>
+              </div>
+            <div class="modal-body text-center">
+              <div class="row">
+                <img src="produit1.jpg" alt=""/>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal2-->
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Model 2</h4>
+              </div>
+            <div class="modal-body text-center">
+              <div class="row">
+                <img src="ch2.jpg" alt=""/>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal3-->
+      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Model 3</h4>
+              </div>
+            <div class="modal-body text-center">
+              <div class="row">
+                <img src="ch3.jpg" alt=""/>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal4-->
+      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Model 4</h4>
+              </div>
+            <div class="modal-body text-center">
+              <div class="row">
+                <img src="ch4.jpg" alt=""/>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--image1-->
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+          <div class="image text-center thumbnail">
+            <a href="#"><img src="produit1.jpg" alt=""/></a>
+            <button class="btn btn-info" data-toggle="modal" data-target="#myModal1">Model 1</button>
+          </div>
+        </div>
+      <!--image2-->
+      <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+        <div class="image text-center thumbnail">
+          <a href="#"><img src="ch2.jpg" alt=""/></a>
+          <button class="btn btn-info" data-toggle="modal" data-target="#myModal2">Model 2</button>
+        </div>
+      </div>
+    <!--image3-->
+    <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+      <div class="image text-center thumbnail">
+        <a href="#"><img src="ch3.jpg" alt=""/></a>
+        <button class="btn btn-info" data-toggle="modal" data-target="#myModal3">Model 3</button>
+      </div>
+    </div>
+    <!--image4-->
+    <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+      <div class="image text-center thumbnail">
+        <a href="#"><img src="ch4.jpg" alt=""/></a>
+        <button class="btn btn-info" data-toggle="modal" data-target="#myModal4">Model 4</button>
+      </div>
+    </div>
+  </div>
+
+    <!--ligne2-->
+    <div class="row">
+      <hr>
+
+    <!--modal5-->
+    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Model 5</h4>
+            </div>
+          <div class="modal-body text-center">
+            <div class="row">
+              <img src="ch5.jpg" alt=""/>
+              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--modal6-->
+    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Model 6</h4>
+            </div>
+          <div class="modal-body text-center">
+            <div class="row">
+              <img src="ch6.jpg" alt=""/>
+              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--modal7-->
+    <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Model 7</h4>
+            </div>
+          <div class="modal-body text-center">
+            <div class="row">
+              <img src="ch7.jpg" alt=""/>
+              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--modal8-->
+    <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Model 8</h4>
+            </div>
+          <div class="modal-body text-center">
+            <div class="row">
+              <img src="ch8.jpg" alt=""/>
+              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--image5-->
+      <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+        <div class="image text-center thumbnail">
+          <a href="#"><img src="ch5.jpg" alt=""/></a>
+          <button class="btn btn-info" data-toggle="modal" data-target="#myModal5">Model 5</button>
+        </div>
+      </div>
+    <!--image6-->
+    <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+      <div class="image text-center thumbnail">
+        <a href="#"><img src="ch6.jpg" alt=""/></a>
+        <button class="btn btn-info" data-toggle="modal" data-target="#myModal6">Model 6</button>
+      </div>
+    </div>
+  <!--image7-->
+  <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+    <div class="image text-center thumbnail">
+      <a href="#"><img src="ch7.jpg" alt=""/></a>
+      <button class="btn btn-info" data-toggle="modal" data-target="#myModal7">Model 7</button>
+    </div>
+  </div>
+  <!--image8-->
+  <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+    <div class="image text-center thumbnail">
+      <a href="#"><img src="ch8.jpg" alt=""/></a>
+      <button class="btn btn-info" data-toggle="modal" data-target="#myModal8">Model 8</button>
+    </div>
+  </div>
+</div>
+
+<hr>
+</div>
+
+
+
+        <!-- Footer -->
+        <footer>
+          <nav class="navbar navbar-inverse">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">My Happy Socks</a>
+              </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-3">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse3" aria-expanded="false" aria-controls="nav-collapse3"><span class="glyphicon glyphicon-envelope"></span></a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+      </footer>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
